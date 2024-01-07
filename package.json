@@ -1,0 +1,24 @@
+{
+  "name": "typescript-prettier-eslint-template",
+  "version": "1.0.1",
+  "description": "Simple Node.js initializer with TypeScript, Prettier and ESLint configured.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Smoczysko/node-typescript-prettier-eslint-template.git"
+  },
+  "bin": {
+    "typescript-prettier-eslint-template": "index.js"
+  },
+  "keywords": [],
+  "author": "Łukasz Rybka",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
