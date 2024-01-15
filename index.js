@@ -46,7 +46,7 @@ const modifyPackageJSON = () => {
     start: "node ./dist/index.js",
     prestart: "npm run build",
     lint: "eslint --fix --quiet src/**/*.ts",
-    format: "prettier --log-level silent --write src/**/*.ts"
+    format: "prettier --log-level silent --write ."
   };
   packageJson.main = "src/index.ts";
 
